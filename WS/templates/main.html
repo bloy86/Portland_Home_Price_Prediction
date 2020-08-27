@@ -16,7 +16,9 @@ form {
 <head>
     <title>Listing Price Predicter Model</title>
 </head>
-<form action="{{ url_for('main') }}" method="POST">
+<body>
+ <div class="login">
+  <form action="{{ url_for('predict')}}" method="POST">
     <fieldset>
         <legend>Input values:</legend>
         Baths:
@@ -37,17 +39,11 @@ form {
         <br>
         <input type="submit">
     </fieldset>
-</form>
+  </form>
 <br>
-<div class="result" align="center">
-    {% if result %}
-    	{% for variable, value in original_input.items() %}
-    		<b>{{ variable }}</b> : {{ value }}
-    	{% endfor %}
-		<br>
-    	<br> Predicted listing price of home:
-   		<p style="font-size:50px">{{ result }}</p>
-    {% endif %}
-</div>
+<br>
+{{ prediction_text }}
 
+ </div>
+</body>
 </html>
