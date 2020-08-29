@@ -21,13 +21,13 @@ def home():
 @app.route('/predict',methods=['POST'])
 def predict():
 
-    int_features = [int(x) for x in request.form.values()]
+    int_features = [float(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
 
     output = prediction.round(decimals=2)
 
-    return render_template('main.html', prediction_text='Price should be $ {}'.format(output))
+    return render_template('main.html', prediction_text='Bleep bloop... home price predicted to be ${}'.format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)
