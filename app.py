@@ -7,6 +7,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    return render_template('index.html')
+
+@app.route('/application')
+def application():    
     return render_template('main.html')
 
 @app.route('/predict',methods=['POST', 'GET'])
@@ -25,10 +29,6 @@ def predict():
     output = round(home_value, 2)
 
     return render_template('main.html', prediction_text='Bleep bloop... home price predicted to be ${}'.format(output))
-
-@app.route('/visualizations')
-def visualizations():    
-    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
