@@ -39,10 +39,7 @@ The final model had a score of 0.68.  Although this is not as high as our team w
 * [Application](https://homeprice-prediction-pdx.herokuapp.com/application)
 * To run, visit the application site linked above and test using input values of homes located in the city of Portland, Oregon. 
 
-
-
-
-
+![](machine%20learning%20code/Home%20Price%20App.png)
 
 ## Team Members
 
