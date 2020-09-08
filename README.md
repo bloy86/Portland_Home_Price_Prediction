@@ -1,8 +1,8 @@
-# Portland_Home_Price_Prediction
+# Portland Home Price Prediction
 
 #### -- Project Status: Completed
 
-## Project Objective
+## Objective
 The purpose of this project was to predict selling prices of homes in the city of Portland, Oregon.  Although there are other algorithms to predict home prices (e.g., Zillow, Redfin), these predict value and not necessarily selling price.  An additional objective was to understand what parameters influence selling price, as the other algorithms are proprietary and the inputs are not known. 
 
 ### Methods Used
