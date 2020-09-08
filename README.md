@@ -30,14 +30,14 @@ Our initial model included the following variables:
 * Year the home was built
 
 Our initial model scores were low.  I parsed the existing address variable to create several new variables, which improved the model score. These variables were:
-* Westside/Eastside location – Homes on the west side of the Willamette river tend to have better views of the Cascade mountain range, but also have higher property taxes, both of which may impact selling price.
-* Numbered/Alphabetical street – In Portland, numbered streets (e.g., NE 22nd) run North-South and tend to be quieter, whereas alphabetical streets (e.g, NE Halsey) run East-West and are often busier, multi-lane travel corridors. The busyness or quietness of a street could impact home value.
+* Westside/Eastside location √ê Homes on the west side of the Willamette river tend to have better views of the Cascade mountain range, but also have higher property taxes, both of which may impact selling price.
+* Numbered/Alphabetical street √ê In Portland, numbered streets (e.g., NE 22nd) run North-South and tend to be quieter, whereas alphabetical streets (e.g, NE Halsey) run East-West and are often busier, multi-lane travel corridors. The busyness or quietness of a street could impact home value.
 
 The final model had a score of 0.68.  Although this is not as high as our team wanted, We are happy that we could improve the score from an initial 0.60 by creating new variables from the existing data.  
 
 ## Deliverables
-* [Application](https://homeprice-prediction-pdx.herokuapp.com)
-* To run, visit the application site and test using input values of homes located in the city of Portland, Oregon. 
+* [Application](https://homeprice-prediction-pdx.herokuapp.com/application)
+* To run, visit the application site linked above and test using input values of homes located in the city of Portland, Oregon. 
 
 
 
